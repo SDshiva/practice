@@ -1,7 +1,6 @@
 body{
     font-family: 'Teko', sans-serif;
     margin: 0%;
-    background-image: url(images/WbfAF4.jpg);
 }
 #logo{
     width: 200px;
@@ -20,4 +19,21 @@ section{
 }
 .first-section p{
     margin-left: 2%;
+}
+.menu{
+    margin-left: 60%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.list li{
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 900;
+    background-color: tomato;
 }
