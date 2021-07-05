@@ -6,13 +6,14 @@ body{
     width: 200px;
     height: 100px;
 }
-section{
+section div{
     margin: 0;
     padding: 0;
 }
 .first-section{
     background-image: repeating-linear-gradient(blue, cyan);
     background-repeat: no-repeat;
+    margin: 0%;
 }
 .first-section span{
     color: salmon;
@@ -20,14 +21,14 @@ section{
 .first-section p{
     margin-left: 2%;
 }
-.menu{
-    margin-left: 60%;
-}
+
 .menu ul{
     list-style-type: none;
+    margin-top: 0%;
+    margin-left: 63%;
 }
 .list li{
-    display: inline;
+    display: inline-block;
 }
 .menu a{
     text-decoration: none;
